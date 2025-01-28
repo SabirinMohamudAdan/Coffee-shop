@@ -12,7 +12,7 @@ const Alllist=()=>{
 
     return <>
     <Header/>
-    <div className="sm:grid sm:grid-cols-3  block sm:ml-0 ml-6 ">
+    <div className="sm:grid sm:grid-cols-3  block sm:ml-0 ml-6 gap-1 ">
 
 <All img={img}  status="Compulete"/>
 <All img={img1}  status="Ongoing"/>
